@@ -9,14 +9,7 @@ This repository contains the core architectural implementation of our proposed a
 
 Our code is currently streamlined to highlight the core contributions requested during the review process. The full training and evaluation scripts will be released upon paper acceptance.
 
-## 🏃‍♂️ Train & Test (Quick Start)
-
-You can reproduce our models using the following commands. Ensure your environment is set up according to the specifications below.
-
-### EDSR-Baseline + SMNF + LSAU
-* **Train:**
-  ```bash
-  python train_real.py --config configs/train-div2k/train-our-edsr.yaml
+  
 ## 📦 Pre-trained Models
 
 You can download our pre-trained weights to reproduce the results reported in the paper.
