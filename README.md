@@ -23,4 +23,4 @@ The code was developed and tested with the following specifications:
 ---
 
 ## 📝 Acknowledgements
-This project is built upon the foundation of several excellent open-source works, including [LIIF](https://github.com/yinboc/liif), [EDSR-PyTorch](https://github.com/thstkdgus35/EDSR-PyTorch), and [CrossFormer](https://github.com/cheerss/CrossFormer). We thank the original authors for their contributions to the community.
+This project is primarily built upon the excellent open-source work [LIIF](https://github.com/yinboc/liif). We sincerely thank the original authors for sharing their codes and contributing to the community.
