@@ -17,7 +17,6 @@ You can download our pre-trained weights to reproduce the results reported in th
 * **Baidu Netdisk (百度网盘):https://pan.baidu.com/s/1nkAkGT3mXN8acwIpyf-6wA (Extraction code: 79j6)
 * **Google Drive:** `[Link to be added here]`
 
-*Note: Please place the downloaded `.pth` files into the `./weights/` directory.*
 
 ---
 
