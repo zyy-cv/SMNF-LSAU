@@ -24,8 +24,8 @@ You can download our pre-trained weights to reproduce the results reported in th
 ## 💻 Environment Setup
 
 The code was developed and tested with the following specifications:
-* Python 3.7
-* PyTorch 1.10
+* Python 3.8+
+* PyTorch 1.10+
 * CUDA 11.3
 
 ---
