@@ -93,6 +93,9 @@ def eval_psnr(loader, model, data_norm=None, eval_type=None, eval_bsize=None,
         res = metric_fn(pred, gt)
         val_res.add(res.item(), inp.shape[0])
 
+        # output = os.path.join('out', str(filename) + '.png')
+        # transforms.ToPILImage()(pred[0]).save(output)
+
         if verbose:
             pbar.set_description('val {:.4f}'.format(val_res.item()))
 
@@ -102,9 +105,9 @@ def eval_psnr(loader, model, data_norm=None, eval_type=None, eval_bsize=None,
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config',  default='configs/test/test-div2k-6.yaml')
-    parser.add_argument('--model', default='F:/My Project/Total_edsr-v1_csnl_v1_plus_scalemodulation_final_k=1/epoch-965.pth')
-    parser.add_argument('--cpu', default='0')
+    parser.add_argument('--config',  default='')
+    parser.add_argument('--model', default='')
+    parser.add_argument('--Gpu', default='0')
     args = parser.parse_args()
 
     #os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
