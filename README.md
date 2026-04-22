@@ -1,18 +1,11 @@
 # Arbitrary-Scale Image Super-Resolution via Scale-aware Multiscale Nonlocal Feature Extraction and local structure-adaptive upsampling
 
 
-This repository contains the core architectural implementation of our proposed arbitrary-scale super-resolution network. Our method integrates a **Scale-aware Multiscale Nonlocal Feature (SMNF)** extraction module and a **Local Structure-Adaptive Upsampling (LSAU)** module into standard backbones (EDSR / RDN) to achieve continuous magnification with high fidelity.
+This repository contains the core architectural implementation of our proposed arbitrary-scale super-resolution network. Our method integrates a **Scale-aware Multiscale Nonlocal Feature (SMNF)** extraction module and a **Local Structure-Adaptive Upsampling (LSAU)** module into standard backbones to achieve continuous magnification.
 
 ---
-
-## 🚀 Core Architecture & Innovations
-
-Our code is currently streamlined to highlight the core contributions requested during the review process. The full training and evaluation scripts will be released upon paper acceptance.
-
   
 ## 📦 Pre-trained Models
-
-You can download our pre-trained weights to reproduce the results reported in the paper.
 
 * **Baidu Netdisk (百度网盘):https://pan.baidu.com/s/1nkAkGT3mXN8acwIpyf-6wA (Extraction code: 79j6)
 * **Google Drive:** `[Link to be added here]`
