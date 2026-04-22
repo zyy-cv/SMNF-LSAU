@@ -1,0 +1,21 @@
+test_dataset:
+  dataset:
+    name: image-folder
+    args:
+      root_path: /home/tata/tata/F/zyy/Dataset/DIV2K_valid/HR
+      #root_path: G:/Dataset/benchmark/Urban100/HR
+  wrapper:
+    name: test-sr-implicit-downsampled
+    args:
+      scale_min: 30
+      scale_max: 30
+      scale_base: 30
+      phase: 'test'
+      batch_size: 1
+  batch_size: 1
+eval_type: div2k-30
+eval_bsize: 30000
+
+data_norm:
+  inp: {sub: [0.5], div: [0.5]}
+  gt: {sub: [0.5], div: [0.5]}

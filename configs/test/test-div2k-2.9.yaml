@@ -1,0 +1,22 @@
+test_dataset:
+  dataset:
+    name: image-folder
+    args:
+      root_path: /home/tata/tata/F/zyy/Dataset/DIV2K_valid/HR
+  wrapper:
+    name: test-sr-implicit-downsampled
+    args:
+      scale_min: 4.6
+      scale_max: 4.6
+      scale_base: 4.6
+      scale_up: 2.9
+      phase: 'test'
+      batch_size: 1
+
+  batch_size: 1
+eval_type: div2k-2.9
+eval_bsize: 30000
+
+data_norm:
+  inp: {sub: [0.5], div: [0.5]}
+  gt: {sub: [0.5], div: [0.5]}
