@@ -2,8 +2,7 @@ test_dataset:
   dataset:
     name: image-folder
     args:
-      #root_path: /home/pipi/VSST/zyy/Urban100/HR
-      root_path: /home/tata/tata/F/zyy/Dataset/benchmark/Urban100/HR
+      root_path: .../Dataset/benchmark/Urban100/HR
   wrapper:
     name: test-sr-implicit-downsampled
     args:

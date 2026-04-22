@@ -2,8 +2,7 @@ test_dataset:
   dataset:
     name: image-folder
     args:
-      root_path: /home/tata/tata/F/zyy/Dataset/DIV2K_valid/HR
-      #root_path: G:/Dataset/benchmark/Urban100/HR
+      root_path: .../Dataset/DIV2K_valid/HR
   wrapper:
     name: test-sr-implicit-downsampled
     args:
