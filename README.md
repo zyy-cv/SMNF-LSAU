@@ -8,7 +8,7 @@ This repository contains the core architectural implementation of our proposed a
 ## 📦 Pre-trained Models
 
 * **Baidu Netdisk (百度网盘):https://pan.baidu.com/s/1nkAkGT3mXN8acwIpyf-6wA (Extraction code: 79j6)
-* **Google Drive:https://drive.google.com/drive/folders/1t91GtUj_e3PowJirfAq0Ba9nbTMT5saV?usp=drive_link
+* **Google Drive (谷歌网盘):https://drive.google.com/drive/folders/1t91GtUj_e3PowJirfAq0Ba9nbTMT5saV?usp=drive_link
 
 
 ---
